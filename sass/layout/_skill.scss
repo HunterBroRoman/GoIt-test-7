@@ -1,9 +1,9 @@
-.skill-list {
+.pic-list {
     display: flex;
     gap: 30px;
   }
   
-  .skill-block {
+  .pic-list__block {
     display: flex;
     width: 270px;
     height: 120px;
@@ -17,11 +17,11 @@
     align-items: center;
   }
   
-  .skill-icon {
+  .pic-list__icon {
     display: flex;
   }
   
-  .skill-title {
+  .pic-list__title {
     margin-top: 35px;
     margin-bottom: 10px;
   
@@ -33,7 +33,7 @@
     color: #212121;
   }
   
-  .skill-text {
+  .pic-list__text {
     margin: 0;
   
     font-weight: 400;
