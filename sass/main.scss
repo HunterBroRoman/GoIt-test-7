@@ -1,13 +1,15 @@
-@import './global';
-@import './header';
-@import './hero';
-@import './skill';
-@import './activity';
-@import './team';
-@import './clients';
-@import './footer-contacts';
-@import './footer-soc';
-@import './footer-subscription';
-@import './modal';
-@import './portfolio';
+@import './components/global';
+@import './components/modal';
+@import './layout/header';
+@import './layout/hero';
+@import './layout/skill';
+@import './layout/activity';
+@import './layout/team';
+@import './layout/clients';
+@import './layout/footer-contacts';
+@import './layout/footer-soc';
+@import './layout/footer-subscription';
+@import './layout/portfolio-filtr';
+@import './layout/portfolio';
+
 

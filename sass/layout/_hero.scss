@@ -19,7 +19,7 @@
     text-align: center;
   }
   
-  .hero-slogan {
+  .hero__slogan {
     margin: 0 auto;
     margin-bottom: 30px;
     width: 700px;
@@ -32,7 +32,7 @@
     text-transform: uppercase;
   }
   
-  .hero-btn {
+  .hero__btn {
     display: inline-flex;
     padding: 10px 32px;
     border-radius: 4px;
@@ -52,8 +52,8 @@
     transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
   }
   
-  .hero-btn:hover,
-  .hero-btn:focus {
+  .hero__btn:hover,
+  .hero__btn:focus {
     background-color: var(--white-color);
     color: var(--accent-color);
     cursor: pointer;
