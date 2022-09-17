@@ -1,0 +1,44 @@
+.skill-list {
+    display: flex;
+    gap: 30px;
+  }
+  
+  .skill-block {
+    display: flex;
+    width: 270px;
+    height: 120px;
+  
+    background: #f5f4fa;
+    border: 1px solid #f5f4fa;
+    border: 1px soli;
+    border-radius: 4px;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .skill-icon {
+    display: flex;
+  }
+  
+  .skill-title {
+    margin-top: 35px;
+    margin-bottom: 10px;
+  
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 1.4;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: #212121;
+  }
+  
+  .skill-text {
+    margin: 0;
+  
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.8;
+    letter-spacing: 0.03em;
+    color: #757575;
+  }
