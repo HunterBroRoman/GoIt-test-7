@@ -2,7 +2,7 @@
   display: flex;
   height: 80px;
   margin-top: 0;
-  background-color: #ffffff;
+  background-color: var(--white-color);
   border-bottom: 1px solid #ececec;
 }
 
@@ -130,7 +130,7 @@
 
 .contact__link:hover .convert,
 .contact__link:focus .convert {
-  fill: #2196f3;
+  fill: var(--accent-color);
 }
 
 .contact__item::before {
@@ -148,10 +148,10 @@
 
 .contact__link:hover .telefon,
 .contact__link:focus .telefon {
-  fill: #2196f3;
+  fill: var(--accent-color);
 }
 
 .contact__link:hover, 
 .contact__link:focus {
-  color: #2196f3;
+  color: var(--accent-color)
 }

@@ -12,7 +12,7 @@
     letter-spacing: 0.03em;
     text-transform: uppercase;
   
-    color: #ffffff;
+    color: var(--white-color);
   }
   
   .footer-soc-list {
@@ -36,16 +36,16 @@
     transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
   }
   .footer-soc-icon {
-    fill: #ffffff;
+    fill: var(--white-color);
   }
   
   /*кращий віріант для ховера та фокуса для всього*/
   .footer-soc-link:hover,
   .footer-soc-link:focus {
-    background-color: #2196f3;
+    background-color: var(--adress-color);
   }
   
   .footer-soc-link:hover .footer-soc-icon,
   .footer-soc-link:focus .footer-soc-icon {
-    fill: #ffffff;
+    fill: var(--white-color);
   }

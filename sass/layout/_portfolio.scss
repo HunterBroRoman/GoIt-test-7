@@ -47,7 +47,7 @@
     font-size: 18px;
     line-height: 1.56;
     letter-spacing: 0.03em;
-    color: #ffffff;
+    color: var(--white-color);
     background-color: rgba(33, 150, 243, 0.9);
   
     transform: translateY(100%);
@@ -70,7 +70,7 @@
     font-size: 18px;
     line-height: 2;
     letter-spacing: 0.06em;
-    color: #212121;
+    color: var(--title-text-color):
     text-align: left;
   }
   .work-name-text {
@@ -80,6 +80,6 @@
     font-size: 16px;
     line-height: 1.87;
     letter-spacing: 0.03em;
-    color: #757575;
+    color: var(--primary-text-color);
     text-align: left;
   }
