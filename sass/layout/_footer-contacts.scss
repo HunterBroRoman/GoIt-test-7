@@ -17,6 +17,7 @@
     font-size: 26px;
     line-height: 1.2;
     letter-spacing: 0.03em;
+    text-decoration: none;
   }
   
   .logo-end {
@@ -25,6 +26,10 @@
   
   .contacts-address-list {
     margin-top: 20px;
+  }
+
+  .contacts-address-item:not(:last-child) {
+    margin-bottom: 9px;
   }
   
   .contacts-address-link {
@@ -35,17 +40,13 @@
     color: var(--white-color);
     text-decoration: none;
     transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    &:hover, 
+    &:focus {
+      color: var(--accent-color);
+    }
   }
-  .contacts-address-link:hover,
-  .contacts-address-link:focus {
-    color: var(--accent-color);
-  }
-  
-  .contacts-address-item:not(:last-child) {
-    margin-bottom: 9px;
-  }
-  
-  .contacts-link {
+    
+    .contacts-link {
     display: inline-block;
     margin: 0;
     font-style: normal;
@@ -56,10 +57,10 @@
     color: rgba(255, 255, 255, 0.6);
     text-decoration: none;
     transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    &:hover, 
+    &:focus {
+      color: var(--accent-color);
+    }
   }
   
-  .contacts-link:hover,
-  .contacts-link:focus {
-    color: var(--adress-color);
-  }
   
