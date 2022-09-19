@@ -344,7 +344,7 @@ textarea::placeholder {
   color: var(--logo-color);
 }
 
-/*--------------NAV-----------*/
+/* general style contact header*/
 .navigation__list {
   display: flex;
   margin-left: 93px;
@@ -395,7 +395,6 @@ textarea::placeholder {
   left: 0;
 }
 
-/* general style contact header*/
 .contact {
   display: flex;
   align-items: center;
